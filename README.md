@@ -5,11 +5,11 @@ Remote execute cmd or ps shell commands using winrm.
 Usage:  
 ------
 
-powershell -ExecutionPolicy ByPass -Command .\utils.ps1 -action ***"start-website-Default Website"*** -hostname mytargetserver.mydomain.com  
+C:\\> powershell -ExecutionPolicy ByPass -Command .\utils.ps1 -action ***"start-website-Default Website"*** -hostname mytargetserver.mydomain.com  
 
-powershell -ExecutionPolicy ByPass -Command .\utils.ps1 -action ***"start-exec-get-service winrm"*** -hostname mytargetserver.mydomain.com  
+C:\\> powershell -ExecutionPolicy ByPass -Command .\utils.ps1 -action ***"start-exec-get-service winrm"*** -hostname mytargetserver.mydomain.com  
 
-powershell -ExecutionPolicy ByPass -Command .\utils.ps1 -action ***"start-cmd-iisreset /restart"*** -hostname mytargetserver.mydomain.com  
+C:\\> powershell -ExecutionPolicy ByPass -Command .\utils.ps1 -action ***"start-cmd-iisreset /restart"*** -hostname mytargetserver.mydomain.com  
 
 
 Possible actions:  
